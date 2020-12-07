@@ -1,0 +1,112 @@
+                /* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+            /* Global Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+              /* Custom Styles */
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    margin:10px;
+    display: inline-block;
+}
+.box-1 {
+    border:6px solid black;
+}
+
+.box-2 {
+    border:6px double black;
+}
+
+.box-3 {
+    border:6px dashed black;
+}
+
+.box-4 {
+    border:6px dotted black;
+}
+
+ section h2 {
+     text-align: center;
+     font-size:xx-large;
+     padding:2rem 0;
+     font-weight:700;
+ }
+
+.para-box {
+    width:30rem;
+    border:5px solid black;
+    margin:5rem auto;
+    height:40rem;
+    border-bottom: 24px solid #b820ad;
+    border-top: 24px solid #14c9e9;
+    border-left: 24px solid #be350b;
+    border-right: 24px solid #172d86;
+    background-color:yellowgreen;
+    box-sizing: border-box;
+    padding:1.5rem;
+    color: white;
+    outline: 20px solid rgb(59, 11, 19);
+    outline-offset:3px;
+    box-shadow:inset 20px 20px 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-align: center;
+
+}
